@@ -9,22 +9,8 @@
   <a href="./README.es.md"><img src="https://img.shields.io/badge/README-Español-c92a2a?style=for-the-badge" alt="Español"></a>
 </p>
 
-<p align="center"><em>🧪 Transmutación de formatos legacy.</em></p>
-
----
-
 ## Resumen
-Transmutador de documentos legacy (PDF escaneado, DOC antiguo, texto caótico) a markdown/JSON estructurado usando OCR y parsing robusto.
-
-## Arquitectura de entendimiento
-```mermaid
-flowchart LR
-  A[Objetivo de entrada] --> B[Chequeo de alcance]
-  B --> C[Plan mínimo de pasos]
-  C --> D[Ejecución segura]
-  D --> E[Verificación]
-  E --> F[Reporte + siguientes pasos]
-```
+Transmutador de formatos legacy: convierte PDF escaneado, Word antiguo y .eml a markdown/JSON estructurado usable por agentes.
 
 ## Instalación
 ```bash
@@ -33,16 +19,18 @@ cd Alchemurgist
 cat SKILL.es.md
 ```
 
-## Uso rápido
-```bash
-printf "ejecutando alchemurgist...\n"
+## Arquitectura de entendimiento
+```mermaid
+flowchart LR
+  A[Entrada] --> B[Validar alcance]
+  B --> C[Plan seguro]
+  C --> D[Ejecutar]
+  D --> E[Verificar]
+  E --> F[Reportar]
 ```
 
 ## Estado
-- Status: Iniciando
-- Dificultad: Media
+Iniciando
 
-## Roadmap
-- [ ] Implementar lógica core v0
-- [ ] Añadir tests de integración
-- [ ] Publicar tag estable v1.0.0
+## Dificultad
+Media

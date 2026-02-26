@@ -1,11 +1,16 @@
 # 🧪 Alchemurgist
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OpenClaw%20Skill-Alchemurgist-111827?style=for-the-badge&logo=github" alt="Alchemurgist banner" />
+  <img src="https://img.shields.io/badge/Skill-Alchemurgist-111827?style=for-the-badge&logo=github" alt="Alchemurgist badge" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Initiating-22d3ee?style=flat-square" alt="status" />
+  <img src="https://img.shields.io/badge/Dificultad-Media-8b5cf6?style=flat-square" alt="dificultad" />
 </p>
 
 ## Purpose
-Transformador de formatos legacy que utiliza OCR avanzado y parsers especializados para convertir documentos antiguos (PDF escaneados, Word obsoletos, texto plano mal formateado) a markdown estructurado o JSON consumible por agentes.
+Transmuta formatos legacy (PDF escaneados, Word viejo) a markdown/JSON usable.
 
 ## Status
 Initiating

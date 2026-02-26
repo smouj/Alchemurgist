@@ -2,7 +2,7 @@
 name: alchemurgist
 description: >
   Alchemurgist skill for transformation operations in multi-agent ecosystems. Use when tasks require transformation analysis, automation, and safe execution workflows.
-version: "1.0.0"
+version: "1.0.1"
 tags: [transformation, ai-agents, openclaw]
 metadata:
   author: smouj

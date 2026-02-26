@@ -1,39 +1,61 @@
-# 🧪 Alchemurgist
+# Alchemurgist
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Skill-Alchemurgist-111827?style=for-the-badge&logo=github" alt="Alchemurgist banner" />
-</p>
+## Qué es
 
-<p align="center">
-  <a href="./README.md"><img src="https://img.shields.io/badge/README-English-1f6feb?style=for-the-badge" alt="English"></a>
-  <a href="./README.es.md"><img src="https://img.shields.io/badge/README-Español-c92a2a?style=for-the-badge" alt="Español"></a>
-</p>
+**Alchemurgist** es una skill especializada en **transformation** para ecosistemas multiagente (OpenClaw/KiloCode), diseñada para ejecutar tareas con seguridad, trazabilidad y resultados reproducibles.
 
-## Overview
-Legacy document transmuter (OCR + parsing) to structured markdown/JSON.
+## Cuándo usarla
 
-## Purpose
-Transmutador de formatos legacy: convierte PDF escaneado, Word antiguo y .eml a markdown/JSON estructurado usable por agentes.
+- Cuando la tarea pertenece al dominio de **transformation**.
+- Cuando necesitas flujo estructurado: análisis → plan → ejecución → validación.
+- Cuando necesitas reporte profesional con verificación y rollback.
 
-## Installation
-```bash
-git clone https://github.com/smouj/Alchemurgist.git
-cd Alchemurgist
-cat SKILL.md
-```
+## Qué hace
 
-## Architecture (understanding)
-```mermaid
-flowchart LR
-  A[Input] --> B[Validate scope]
-  B --> C[Plan safe steps]
-  C --> D[Execute]
-  D --> E[Verify]
-  E --> F[Report]
-```
+- Define triggers claros de activación.
+- Ejecuta proceso operativo obligatorio en 4 pasos.
+- Aplica reglas de seguridad y guardrails.
+- Entrega salida estandarizada para auditoría y operación.
 
-## Status
-Initiating
+## Inputs esperados
 
-## Difficulty
-Media
+- Objetivo técnico.
+- Alcance y restricciones.
+- Entorno objetivo (repo, VPS, servicio, etc.).
+- Riesgo/tolerancia esperada.
+
+## Outputs esperados
+
+- Plan breve y accionable.
+- Cambios realizados (si aplica).
+- Verificación reproducible.
+- Rollback y riesgo residual.
+
+## Límites y seguridad
+
+- No exponer secretos.
+- No ejecutar acciones destructivas sin confirmación explícita.
+- Evitar cambios no trazables o no verificables.
+
+## Troubleshooting
+
+1. Verificar credenciales/herramientas disponibles.
+2. Validar acceso al entorno objetivo.
+3. Reducir alcance a cambio mínimo seguro.
+4. Reintentar con evidencia y logs.
+
+## Ejemplo rápido
+
+**Input:** “Necesito revisar y endurecer el flujo de transformation”.
+
+**Output esperado:**
+- Diagnóstico inicial
+- Plan en pasos
+- Implementación incremental
+- Validación + rollback
+
+## Archivos de la skill
+
+- `SKILL.md` (EN)
+- `SKILL.es.md` (ES)
+- `README.md` (este documento)
